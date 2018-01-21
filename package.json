@@ -1,17 +1,16 @@
 {
-  "name": "spa-github-pages",
-  "version": "5.1.0",
+  "name": "andrewkowalczyk",
+  "version": "0.0.1",
   "private": true,
-  "description": "Single Page Apps for GitHub Pages",
+  "description": "website homepage",
   "scripts": {
     "start": "webpack-dev-server --devtool eval-source-map --history-api-fallback --open",
     "build": "webpack -p"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rafrex/spa-github-pages.git"
+    "type": "git"
   },
-  "author": "Rafael Pedicini <code@rafrex.com>",
+  "author": "Andrew Kowalczyk",
   "license": "MIT",
   "dependencies": {
     "prop-types": "^15.6.0",
