@@ -5,13 +5,13 @@ import PageNotFound from './PageNotFound';
 
 export default function App() {
   return (
-    <div>
+    <article>
       <h1>Andrew Kowalczyk</h1>
 
       <Switch>
         <Route exact path="/" component={Home} />
         <Route component={PageNotFound} />
       </Switch>
-    </div>
+    </article>
   );
 }
